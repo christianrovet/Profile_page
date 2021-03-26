@@ -1,0 +1,289 @@
+*{ 
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS';
+}
+
+/* nav-bar */
+.container-nav{
+    max-width:100%;
+}
+.nav{
+    background-color:#2a2a31;
+    font-family: 'Trebuchet MS';
+    display:flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.nav-title{
+    color:white;
+} 
+.nav-links{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    margin-left: 15%;
+    /* position: relative;
+    left: 90px; */
+}
+/*unvisited link*/
+li a:link {
+    color: honeydew;
+    text-decoration: none;
+}
+/*visited link*/
+li a:visited {
+    color: honeydew;
+    text-decoration: none;
+}
+/*interactive links*/
+li a:hover {
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn{
+    background-color: rgb(25, 124, 180);
+    width: 100px;
+    height: 35px;
+    font-family: Trebuchet MS;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    margin-right: 20%;
+}
+
+/*--------------------------------------------------------------*/
+
+/*container*/
+
+.container{
+    width: 1200px;
+    height: 830px;
+    margin:0 auto;
+    display:flex;
+
+}
+.col-1{
+height: 820px;
+flex:1 1 30%;
+margin: 10px;
+}
+.user-card{
+    width:500px;
+    height:350px;
+    margin:50px auto;
+}
+.edu-info{
+    width:500px;
+    height:350px;
+    margin:30px auto;
+}
+
+.banner{
+    background-color:rgba(0, 0, 0, 0.568);
+    height:80px;
+    width: 550px;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.card-main {
+    font-family: 'Trebuchet MS';
+    display:flex;
+    flex-direction: column;
+    width:550px;
+    height: 270px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top: none;
+    margin-top:80px;
+}
+/*usercard*/
+.img-pro{
+    border-radius: 50%;
+    position: relative;
+    top: -75px;
+    margin:10px;
+}
+.name-pro{
+    position: relative;
+    top:-85px;
+    margin-left:20px;
+}
+.location-pro {
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    top:-80px;
+    margin-left:25px;
+}
+.body-pro{
+    position: relative;
+    top:-30px;
+    margin-left:25px;
+    font-weight: bold;
+}
+.line1-pro{
+    position: relative;
+    top: -25px;
+}
+.line2-pro{
+    position: relative;
+    top: -25px;
+}
+.edit-btn{
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
+/*education*/
+
+.banner.edu-head{
+    background-color:blanchedalmond;
+    font-size: 24px;
+    font-weight: bold;
+}
+.banner.edu-head p{
+    margin:10px;
+}
+.edu-main {
+    font-family: 'Trebuchet MS';
+    display:flex;
+    flex-direction: column;
+    width:550px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top: none;
+}
+.edu-h1{
+    margin-left: 10px;
+}
+.edu-h2{
+    margin:3px;
+    font-style: italic;
+    color: grey;
+    margin-left: 20px;
+}
+.edu-des{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.edu-des p{
+    padding:5px;
+}
+/*--------------col2-------------------*/
+.col-2{
+    height: 820px;
+    flex:1 0 30%;
+    margin: 10px;
+}
+.requests{
+    width:275px;
+    height:250px;
+    margin:50px auto;
+}
+.banner-2{
+    background-color:rgba(0, 0, 0, 0.568);
+    height:60px;
+    width: 275px;
+    border: 1px solid black;
+    border-bottom: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.num-req{
+    height : 30px;
+    margin-top: 6px;;
+}
+
+/*requests*/
+.requests-body1{
+    display: flex;
+    justify-content: space-between;
+    width:275px;
+    height: 95px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom:none;
+}
+.requests-body2{
+    display: flex;
+    justify-content: space-between;
+    width:275px;
+    height: 95px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top: none;
+}
+.user-req{
+    display:flex;
+    justify-content: flex-start;
+    width:250px;
+}
+.name-req{
+    margin: 17px 0px 0px 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pro-icon{
+    margin-top: 12px;
+}
+.choice{
+    display:flex;
+    justify-content: flex-end;
+    margin: 12px 5px;
+    width:100px;
+}
+.x-icon{
+    padding-bottom: 7px;
+    padding-top: 7px;;
+}
+/*your connections*/
+
+.connections{
+    width:275px;
+    height:400px;
+    margin:30px auto;
+}
+.notification{
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.connections-body{display: flex;
+justify-content: space-between;
+width:275px;
+height: 95px;
+background-color: lightgray;
+border-radius: 2px;
+border: 1px solid black;
+border-top: none;
+border-bottom: none;
+}
+.name-con{
+    margin: 13px 0px 0px 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.connections-body1{display: flex;
+    justify-content: space-between;
+    width:275px;
+    height: 95px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 1px solid black;
+    border-top: none;
+    }
